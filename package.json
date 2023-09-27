@@ -1,0 +1,32 @@
+{
+	"name": "zuland",
+	"version": "1.0.0",
+	"description": "UI Kit",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "webpack"
+	},
+	"keywords": [
+		"UI Kit"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^18.2.23",
+		"clsx": "^2.0.0",
+		"css-loader": "^6.8.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"style-loader": "^3.3.3",
+		"ts-loader": "^9.4.4",
+		"typescript": "^5.2.2",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-dom": "*"
+	},
+	"files": [
+		"dist"
+	]
+}
